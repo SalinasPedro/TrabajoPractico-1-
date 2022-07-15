@@ -14,6 +14,10 @@ const dataSchema = new mongoose.Schema({
   email: {
     required: true,
     type: String,
+  },  
+  company:{
+    required: true,
+    type: String,
   },
 });
 
